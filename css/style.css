@@ -1,0 +1,46 @@
+
+nav{
+     background-color: rgb(138, 189, 255);
+        
+}
+a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 17px; 
+}
+.card{
+    background-color: rgb(143, 135, 124);
+      position: relative;
+    left: 50px;  
+     top: 20px;  
+}
+
+body{
+  background-image: url('../img/fundo_2.jpg');
+  background-size: cover;
+}
+
+.Saiba_mais{
+    width: 80%;
+    height: 70vh;
+    margin: 100px auto;
+    background-color: rgb(237, 241, 240);
+}
+.Diversos{
+
+}
+.card{
+    background-color: rgb(143, 135, 124);
+      position: relative;
+    left: 350px;  
+     top: 10px;  
+}
+
+
+
+
+
+
+
+
+
