@@ -8,12 +8,7 @@ a {
   text-decoration: none;
   font-size: 17px; 
 }
-.card{
-    background-color: rgb(143, 135, 124);
-      position:unset;
-    left: 200px;  
-     top: 20px;  
-}
+
 
 body{
   background-image: url('../img/fundo_2.jpg');
@@ -26,14 +21,23 @@ body{
     margin: 100px auto;
     background-color: rgb(237, 241, 240);
 }
-.Diversos{
+ .Diversos{
+  background-color: rgb(237, 241, 240);
 
 }
-.card{
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 300px;
+    margin-top: 50px;
+}
+.card1, .card2, .card3 {
     background-color: rgb(143, 135, 124);
-      position: relative;
-    left: 350px;  
-     top: 10px;  
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 20px;
 }
 
 
