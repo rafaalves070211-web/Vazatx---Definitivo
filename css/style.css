@@ -10,8 +10,8 @@ a {
 }
 .card{
     background-color: rgb(143, 135, 124);
-      position: relative;
-    left: 50px;  
+      position:unset;
+    left: 200px;  
      top: 20px;  
 }
 
