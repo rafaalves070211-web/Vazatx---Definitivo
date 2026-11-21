@@ -74,3 +74,17 @@ body{
 .card-body {
     padding: 15px;
 }
+
+.butnoticias-antigas {
+    text-align: center;
+    margin-top: 20px;
+    color: #ff0000;
+}
+
+.cards-container:not(.mostrar-todos) > div:nth-child(n+4) {
+    display: none;
+}
+
+[hidden] {
+    display: none !important;
+}

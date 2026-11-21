@@ -1,1 +1,25 @@
+const container = document.querySelector(".cards-container");
+const botao = document.querySelector("#botao-noticias");
 
+if (container && botao) {
+
+    const totalCards = container.children.length;
+
+    if (totalCards <= 3) {
+        botao.hidden = true;
+    } else {
+        botao.hidden = false;
+
+        botao.addEventListener("click", function() {
+
+            container.classList.toggle("mostrar-todos");
+
+            if (container.classList.contains("mostrar-todos")) {
+                botao.textContent = "Ocultar notícias antigas";
+            } else {
+                botao.textContent = "Notícias antigas";
+            }
+
+        });
+    }
+}
