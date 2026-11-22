@@ -1,12 +1,14 @@
 
 nav{
      background-color: rgb(138, 189, 255);
+     font-family: 'Quantico', sans-serif;
         
 }
 a {
   color: #000000;
   text-decoration: none;
   font-size: 17px; 
+  font-family: 'Quantico', sans-serif;
 }
 
 
@@ -25,6 +27,7 @@ h1{
 p{
   color: #00ff4c;
   font-family: 'Quantico', sans-serif;
+
 }
 
 
@@ -32,17 +35,22 @@ p{
 body{
   background-image: url('../img/fUNDO_Cyberpunk.JPEG');
   background-size: cover;
+  font-family: 'Quantico', sans-serif;
+
   
 }
 
 .Saiba_mais{
     width: 80%;
     height:80vh;
+    padding: 20px;
     margin: 100px auto;
-    background-color: rgb(237, 241, 240);
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
 }
  .Diversos{
   background-color: rgb(237, 241, 240);
+  font-family: 'Quantico', sans-serif;
 
 }
 .cards-container {
@@ -58,6 +66,7 @@ body{
 .card1, .card2, .card3 {
     background-color: rgb(143, 135, 124);
     display: flex;
+    font-family: 'Quantico', sans-serif;
     flex-direction: column;
     align-items: stretch;
     width: 18rem;
@@ -79,6 +88,7 @@ body{
     text-align: center;
     margin-top: 20px;
     color: #ff0000;
+    font-family: 'Quantico', sans-serif;
 }
 
 .cards-container:not(.mostrar-todos) > div:nth-child(n+4) {
@@ -87,4 +97,14 @@ body{
 
 [hidden] {
     display: none !important;
+}
+
+.cards-historicos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
 }
