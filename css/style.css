@@ -1,9 +1,37 @@
 
 nav{
-     background-color: rgb(138, 189, 255);
+     background-color: rgb(255, 238, 5);
      font-family: 'Quantico', sans-serif;
+
         
 }
+
+.navbar-brand{
+    color: #00f74e;
+    font-size: 17px; 
+    font-family: 'Quantico', sans-serif;
+}
+
+
+
+.nav-link{
+    color: #000000;
+    font-size: 17px; 
+    font-family: 'Quantico', sans-serif;
+}
+
+
+.QZnav-link{
+    color: #ff0000 !important;
+    font-size: 17px; 
+    font-family: 'Quantico', sans-serif;
+}
+        
+
+
+
+
+
 a {
   color: #000000;
   text-decoration: none;
@@ -32,12 +60,14 @@ p{
 
 
 
-body{
-  background-image: url('../img/fUNDO_Cyberpunk.JPEG');
-  background-size: cover;
-  font-family: 'Quantico', sans-serif;
+body {
+    background-image: url('../img/fUNDO_Cyberpunk.JPEG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
-  
+    font-family: 'Quantico', sans-serif;
 }
 
 .Saiba_mais{
@@ -64,7 +94,7 @@ body{
 }
 
 .card1, .card2, .card3 {
-    background-color: rgb(143, 135, 124);
+    background-color: rgba(143, 135, 124, 0.381);
     display: flex;
     font-family: 'Quantico', sans-serif;
     flex-direction: column;
