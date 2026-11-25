@@ -19,13 +19,7 @@ nav{
     font-family: 'Quantico', sans-serif;
 }
 
-.QZnav-link{
-    color: #ff0000 !important;
-    font-size: 17px; 
-    font-family: 'Quantico', sans-serif;
-    
-    
-}
+
 
 a {
   color: #000000;
@@ -45,10 +39,18 @@ h1{
   font-family: 'Quantico', sans-serif;
 }
 
+.QZnav-link{
+    color: #ff0000 !important;
+    font-size: 17px; 
+    font-family: 'Quantico', sans-serif;
+    
+    
+}
+
 
 
 p{
-  color: #00ff4c;
+  color: #ffffff;
   font-family: 'Quantico', sans-serif;
 
 }
@@ -133,4 +135,76 @@ body {
     gap: 30px;
     margin-top: 50px;
     flex-wrap: wrap;
+}
+
+body.modo-serio {
+    background-image: none;
+    background-color: #777777ab;
+}
+
+body.modo-serio nav {
+    background-color: #000000;
+}
+
+body.modo-serio .navbar-brand {
+    color: #00AA00;
+}
+
+body.modo-serio .nav-link {
+    color: #FFFF00;
+}
+
+body.modo-serio .QZnav-link {
+    color: #FF0000 !important;
+}
+
+body.modo-serio h1 {
+    color: #FFFFFF;
+}
+
+body.modo-serio .card1,
+body.modo-serio .card2,
+body.modo-serio .card3 {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+body.modo-serio .card1 p,
+body.modo-serio .card2 p,
+body.modo-serio .card3 p,
+body.modo-serio .card1 h1,
+body.modo-serio .card2 h1,
+body.modo-serio .card3 h1,
+body.modo-serio .card1 h2,
+body.modo-serio .card2 h2,
+body.modo-serio .card3 h2 {
+    color: #000000;
+}
+
+body.modo-serio .card1 a,
+body.modo-serio .card2 a,
+body.modo-serio .card3 a {
+    display: inline-block;
+    background-color: #00AA00;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+body.modo-serio .cards-historicos .card1,
+body.modo-serio .cards-historicos .card2,
+body.modo-serio .cards-historicos .card3 {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+body.modo-serio button {
+    border-radius: 5px;
+}
+
+body.button {
+    border-radius: 5px;
 }

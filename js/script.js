@@ -23,3 +23,31 @@ if (container && botao) {
         });
     }
 }
+
+const botaoModo = document.querySelector("#alternar-modo");
+
+if (botaoModo) {
+
+    const modoSalvo = localStorage.getItem("modo-serio");
+
+    if (modoSalvo === "ativado") {
+        document.body.classList.add("modo-serio");
+        botaoModo.textContent = "Ativar modo atual";
+    }
+
+    botaoModo.addEventListener("click", function() {
+
+        document.body.classList.toggle("modo-serio");
+
+        const modoSerioAtivo = document.body.classList.contains("modo-serio");
+
+        if (modoSerioAtivo) {
+            localStorage.setItem("modo-serio", "ativado");
+            botaoModo.textContent = "Ativar modo atual";
+        } else {
+            localStorage.setItem("modo-serio", "desativado");
+            botaoModo.textContent = "Ativar modo sério";
+        }
+
+    });
+}
