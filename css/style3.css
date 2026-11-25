@@ -98,6 +98,8 @@ body {
     width: 18rem;
     flex-shrink: 0;
     gap: 0;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .card1 img, .card2 img, .card3 img {
@@ -133,6 +135,8 @@ body {
     gap: 30px;
     margin-top: 50px;
     flex-wrap: wrap;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 body.modo-serio {
@@ -205,4 +209,10 @@ body.modo-serio button {
 
 body.button {
     border-radius: 5px;
+}
+
+.modo-container {
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
 }
